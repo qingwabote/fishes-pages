@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="tuanjie-container" class="tuanjie-desktop">
-      <canvas id="tuanjie-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="tuanjie-canvas" width=640 height=960 tabindex="-1"></canvas>
       <div id="tuanjie-loading-bar">
         <div id="tuanjie-logo"></div>
         <div id="tuanjie-progress-bar-empty">
@@ -59,11 +59,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/fishes-pages.loader.js";
+      var loaderUrl = buildUrl + "/webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/fishes-pages.data",
-        frameworkUrl: buildUrl + "/fishes-pages.framework.js",
-        codeUrl: buildUrl + "/fishes-pages.wasm",
+        dataUrl: buildUrl + "/webgl.data",
+        frameworkUrl: buildUrl + "/webgl.framework.js",
+        codeUrl: buildUrl + "/webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "fishes",
@@ -105,8 +105,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "640px";
+        canvas.style.height = "960px";
       }
 
       loadingBar.style.display = "block";
