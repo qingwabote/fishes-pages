@@ -1,10 +1,10 @@
-/*/Build/*.wasm.br
+/skinning-256-unity-simd/Build/*.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
+
+/skinning-256-unity-simd/Build/*.wasm.br
   Content-Type: application/wasm
   Content-Encoding: br
 
-/*/Build/*.data.br
-  Content-Encoding: br
-
-/*/Build/*.js.br
-  Content-Type: application/javascript
+/skinning-256-unity-simd/Build/*.data.br
   Content-Encoding: br
