@@ -1,10 +1,10 @@
-/**/*.wasm.br
+/*/Build/*.wasm.br
   Content-Type: application/wasm
   Content-Encoding: br
 
-/**/*.data.br
+/*/Build/*.data.br
   Content-Encoding: br
 
-/**/*.js.br
+/*/Build/*.js.br
   Content-Type: application/javascript
   Content-Encoding: br
